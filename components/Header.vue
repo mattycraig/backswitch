@@ -1,6 +1,6 @@
 <template>
   <header>
-    <b-container fluid="lg" class="d-flex">
+    <div class="container d-flex">
       <span>{{ siteName }}</span>
       <div class="ml-auto">
         <nuxt-link class="btn btn-sm btn-link mx-1" to="/">Home</nuxt-link>
@@ -8,7 +8,7 @@
           >About</nuxt-link
         >
       </div>
-    </b-container>
+    </div>
   </header>
 </template>
 

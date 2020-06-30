@@ -2,8 +2,10 @@
   <div>
     <div class="intro">
       <Logo />
-      <h1 class="title">Homepage</h1>
-      <h2 class="subtitle">This is the homepage.</h2>
+      <h1>Homepage</h1>
+      <h2 class="subheading">
+        Reiciendis et rerum ut voluptate.
+      </h2>
       <div class="links">
         <nuxt-link class="btn btn-primary mx-1" to="/">Home</nuxt-link>
         <nuxt-link class="btn btn-secondary mx-1" to="/about">About</nuxt-link>
@@ -14,12 +16,8 @@
 
 <script>
 import config from '~/data/siteConfig'
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo,
-  },
   data() {
     return {
       metaTitle: 'Homepage',
@@ -53,20 +51,6 @@ export default {
   align-items: center;
   text-align: center;
   padding: $spacer * 5 0;
-}
-
-.title {
-  display: block;
-  font-size: 100px;
-  color: #35495e;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
 }
 
 .links {

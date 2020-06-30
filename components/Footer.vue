@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <b-container fluid="lg" class="d-flex">
+    <div class="container d-flex">
       <span>&copy; {{ new Date().getFullYear() }} {{ siteName }}</span
       ><span class="ml-auto"
         ><a href="#"
@@ -19,7 +19,7 @@
             :icon="['fab', 'github']"
           ></font-awesome-icon></a
       ></span>
-    </b-container>
+    </div>
   </footer>
 </template>
 

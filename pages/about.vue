@@ -2,8 +2,8 @@
   <div>
     <div class="intro">
       <Logo />
-      <h1 class="title">About Page</h1>
-      <h2 class="subtitle">This is the about us page.</h2>
+      <h1 class="title">{{ metaTitle }}</h1>
+      <h2 class="subtitle">{{ metaDescription }}</h2>
     </div>
     <div class="pb-5">
       <p>
@@ -60,12 +60,8 @@
 
 <script>
 import config from '~/data/siteConfig'
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo,
-  },
   data() {
     return {
       metaTitle: 'About',

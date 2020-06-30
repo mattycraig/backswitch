@@ -2,7 +2,7 @@ import config from './data/siteConfig'
 
 export default {
   mode: 'universal',
-  // components: true,
+  components: true,
   // ------------------------------------
   // HEADERS OF THE PAGE
   // ------------------------------------
@@ -91,45 +91,46 @@ export default {
   // NUXT.JS DEV-MODULES
   // ------------------------------------
   buildModules: [
-    // '@nuxt/components',
+    '@nuxt/components',
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/google-analytics',
+    // '@nuxtjs/google-analytics',
   ],
   // ------------------------------------
   // NUXT.JS MODULES
   // ------------------------------------
   modules: [
-    'bootstrap-vue/nuxt',
+    // 'bootstrap-vue/nuxt',
+    '@nuxt/content',
     '@nuxtjs/style-resources',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/browserconfig',
+    // '@nuxtjs/sitemap',
+    // '@nuxtjs/browserconfig',
     'nuxt-fontawesome',
     'nuxt-webfontloader',
-    'nuxt-responsive-loader',
-    'nuxt-imagemin',
-    '@nuxtjs/pwa',
+    // 'nuxt-responsive-loader',
+    // 'nuxt-imagemin',
+    // '@nuxtjs/pwa',
   ],
   // ------------------------------------
   // PWA OPTIONS
   // ------------------------------------
-  pwa: {
-    manifest: {
-      name: config.siteTitle,
-      description: config.siteDescription,
-      short_name: config.siteShortTitle,
-      theme_color: config.themeColor,
-      background_color: config.bkgColor,
-    },
-  },
+  // pwa: {
+  //   manifest: {
+  //     name: config.siteTitle,
+  //     description: config.siteDescription,
+  //     short_name: config.siteShortTitle,
+  //     theme_color: config.themeColor,
+  //     background_color: config.bkgColor,
+  //   },
+  // },
   // ------------------------------------
   // BOOTSTRAPVUE GLOBALS/OPTIONS
   // ------------------------------------
-  bootstrapVue: {
-    bootstrapCSS: false,
-    bootstrapVueCSS: false,
-    // componentPlugins: ['LayoutPlugin', 'FormPlugin']
-  },
+  // bootstrapVue: {
+  //   bootstrapCSS: false,
+  //   bootstrapVueCSS: false,
+  //   // componentPlugins: ['LayoutPlugin', 'FormPlugin']
+  // },
   // ------------------------------------
   // FONTAWESOME OPTIONS
   // ------------------------------------
@@ -152,10 +153,10 @@ export default {
   // ------------------------------------
   webfontloader: {
     custom: {
-      families: ['Poppins:n4,n7', 'Montserrat:n7', 'Rajdhani:n7'],
+      families: ['Poppins:n3,n4,n7', 'Chivo:n3', 'Rajdhani:n7'],
       urls: [
-        'https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap',
-        'https://fonts.googleapis.com/css?family=Montserrat:700&display=swap',
+        'https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap',
+        'https://fonts.googleapis.com/css?family=Chivo:300&display=swap',
         'https://fonts.googleapis.com/css?family=Rajdhani:700&display=swap',
       ],
     },
@@ -174,21 +175,21 @@ export default {
   // ------------------------------------
   // BROWSERCONFIG OPTIONS
   // ------------------------------------
-  browserconfig: {
-    TileColor: config.themeColor,
-  },
+  // browserconfig: {
+  //   TileColor: config.themeColor,
+  // },
   // ------------------------------------
   // SITEMAP OPTIONS
   // ------------------------------------
-  sitemap: {
-    hostname: config.siteUrl,
-  },
+  // sitemap: {
+  //   hostname: config.siteUrl,
+  // },
   // ------------------------------------
   // GOOGLE ANALYTICS
   // ------------------------------------
-  googleAnalytics: {
-    id: config.googleAnalyticsID,
-  },
+  // googleAnalytics: {
+  //   id: config.googleAnalyticsID,
+  // },
   // ------------------------------------
   // BUILD CONFIGURATION
   // ------------------------------------
