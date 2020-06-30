@@ -1,6 +1,9 @@
 ---
 title: Article Number 1
+category: articles
 description: Learn how to use @nuxt/content.
+excerpt: Learn how to use @nuxt/content.
+tags: Test, Learn, More
 image: test.jpg
 ---
 
@@ -26,4 +29,26 @@ Click a violation for information about it or click its line number to highlight
 
 #### Thanks
 
-[`markdownlint/Ruby`](https://github.com/markdownlint/markdownlint) for the inspiration and [`markdown-it`](https://github.com/markdown-it/markdown-it) for the parser and interactive demo idea!
+Type or paste `Markdown` content in the upper-left box, drag-and-drop a file, or open one with the chooser at the top.
+Content gets parsed and displayed in the upper-right box; rule violations (if any) show up in the lower-right box.
+Click a violation for information about it or click its line number to highlighted it in the lower-left box.
+
+Type or paste `Markdown` content in the upper-left box, drag-and-drop a file, or open one with the chooser at the top.
+Content gets parsed and displayed in the upper-right box; rule violations (if any) show up in the lower-right box.
+Click a violation for information about it or click its line number to highlighted it in the lower-left box.
+
+Type or paste `Markdown` content in the upper-left box, drag-and-drop a file, or open one with the chooser at the top.
+Content gets parsed and displayed in the upper-right box; rule violations (if any) show up in the lower-right box.
+Click a violation for information about it or click its line number to highlighted it in the lower-left box.
+
+Type or paste `Markdown` content in the upper-left box, drag-and-drop a file, or open one with the chooser at the top.
+Content gets parsed and displayed in the upper-right box; rule violations (if any) show up in the lower-right box.
+Click a violation for information about it or click its line number to highlighted it in the lower-left box.
+
+Type or paste `Markdown` content in the upper-left box, drag-and-drop a file, or open one with the chooser at the top.
+Content gets parsed and displayed in the upper-right box; rule violations (if any) show up in the lower-right box.
+Click a violation for information about it or click its line number to highlighted it in the lower-left box.
+
+Type or paste `Markdown` content in the upper-left box, drag-and-drop a file, or open one with the chooser at the top.
+Content gets parsed and displayed in the upper-right box; rule violations (if any) show up in the lower-right box.
+Click a violation for information about it or click its line number to highlighted it in the lower-left box.

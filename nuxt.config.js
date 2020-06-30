@@ -191,6 +191,17 @@ export default {
   //   id: config.googleAnalyticsID,
   // },
   // ------------------------------------
+  // HOOKS
+  // ------------------------------------
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const time = require('reading-time')(document.text)
+        document.readingTime = time.text
+      }
+    },
+  },
+  // ------------------------------------
   // BUILD CONFIGURATION
   // ------------------------------------
   build: {

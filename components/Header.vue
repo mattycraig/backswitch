@@ -7,6 +7,7 @@
         <nuxt-link class="btn btn-sm btn-link mx-1" to="/about"
           >About</nuxt-link
         >
+        <nuxt-link class="btn btn-sm btn-link mx-1" to="/blog">Blog</nuxt-link>
       </div>
     </div>
   </header>
