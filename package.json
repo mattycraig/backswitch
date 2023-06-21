@@ -24,7 +24,7 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "bootstrap": "^5.0.0-alpha1",
     "bootstrap-vue": "^2.15.0",
-    "nuxt": "^2.13.2",
+    "nuxt": "^3.4.3",
     "reading-time": "^1.2.0"
   },
   "devDependencies": {
